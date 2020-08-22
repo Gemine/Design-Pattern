@@ -1,0 +1,6 @@
+SOURCE = AniFactory.cpp Animals.h Dog.cpp FactoryDog.cpp main.cpp
+main: 
+	g++ $(SOURCE) -o $@
+
+clean:
+	
