@@ -1,6 +1,6 @@
-SOURCE = AniFactory.cpp Animals.h Dog.cpp FactoryDog.cpp main.cpp
+SOURCE = Define.h AniFactory.cpp Animals.h Dog.cpp FactoryDog.cpp Subject.cpp main.cpp
 main: 
 	g++ $(SOURCE) -o $@
 
 clean:
-	
+	rm main.exe

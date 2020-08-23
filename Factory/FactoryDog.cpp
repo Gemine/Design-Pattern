@@ -9,7 +9,7 @@ Dog* FactoryDog::makeDog()
 Animals* FactoryDog::makeAnimals(std::string inName, int inAge)
 {
     Animals *dog = new Dog;
-    std::cout<< dog << '\n';
+    //std::cout<< dog << '\n';
     dog->setName(inName);
     dog->setAge(inAge);
     return dog;
